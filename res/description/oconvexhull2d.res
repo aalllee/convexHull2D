@@ -1,0 +1,53 @@
+CONTAINER Oconvexhull2d
+{
+	NAME Oconvexhull2d;
+	INCLUDE Obase;
+
+	GROUP ID_OBJECTPROPERTIES
+	{
+
+		BOOL GEOMETRYBASED { }
+		BOOL BOUNDINGPLANE { }
+		
+		SEPARATOR
+		{
+			LINE;
+		}
+		LINK	INTERSECTION_PLANE_TARGET
+		{
+			ACCEPT
+			{
+				Obase;
+			}
+			REFUSE
+			{
+				Osky;
+				Oforeground;
+			}
+		}
+
+		SEPARATOR
+		{
+			LINE;
+		}
+		
+		LONG EXPANSION_MODE
+		{
+		  CYCLE
+		  {
+			EXPANSION_MODE_TANGENT;
+			-1;
+			
+		  }
+		}
+		REAL EXPANSION_FLOAT {UNIT METER; MIN -10000.0; MAX 10000.0;STEP 0.1; CUSTOMGUI REALSLIDER; }
+		SEPARATOR
+		{
+			LINE;
+		}
+		STATICTEXT { NAME TEXT_DUMMY; }
+		REAL CONVEXHULL2D_PRECISION { UNIT METER; MIN 0.0; STEP 0.1; }
+		
+	}
+
+}

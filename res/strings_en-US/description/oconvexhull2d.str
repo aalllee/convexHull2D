@@ -1,0 +1,14 @@
+STRINGTABLE Oconvexhull2d
+{
+	Oconvexhull2d "Convex hull 2D";
+
+	CONVEXHULL2D_PRECISION			"Precision";
+	GEOMETRYBASED					"Geometry Based";
+	BOUNDINGPLANE					"Show Bounding Plane";
+	INTERSECTION_PLANE_TARGET		"Plane of Intersection Target";
+	TEXT_DUMMY						"Advanced";
+	EXPANSION_FLOAT						"Expand";
+	EXPANSION_MODE					"Expansion mode";
+	EXPANSION_MODE_TANGENT			"Tangent based";
+	
+}
