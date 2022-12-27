@@ -22,10 +22,9 @@
 	The Convex Hull 2D object can be found under the "Extensions" tab. 
 
 	By default the Convex Hull 2D object computes convex hull on it's child objects' pivot points.
-![image](images/Object.png)		
-![image](images/chull_default.png)
-
-<img align="left" width="100" height="100" src="images/Object.png">
 
 
-<img align="right" width="100" height="100" src="images/Object.png">
+<img align="left" width="178" height="221" src="images/Object.png">
+
+
+<img align="right" width="979" height="604" src="images/chull_default.png">
