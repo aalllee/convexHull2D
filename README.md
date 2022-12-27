@@ -46,4 +46,17 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
   <img src="images/geometry_based.png" width="784" /> 
 </p>
 
+#### Define custom plane of intersection
+	We can also overwrite the default "world X-Z" plane and define a custom plane of intersection for our convex hull calculations.
+	We do so by linking a plane object to the "Plane of intersection target" linker in the Object properties. Simply create a new object,
+	drag and drop it into the link area. Once the object has been linked it should have a green bounding box surrounding it. The orientation
+	of the linked object now defines the new plane of intersection for geometry based mode.
+<p float="left">
+  <img src="images/linkedobj.png" width="414" />
+ 
+</p>
+
+
+
+
 
