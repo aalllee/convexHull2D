@@ -27,7 +27,7 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 
 #### Pivot point based
 	By default the Convex Hull 2D object snaps it's childern objects to it's local XZ plane and
-	computes convex hull on it's child objects' pivot points. The child objects are free to be moved around
+	computes convex hull on it's child objects' pivot points. The child objects are free to move around
 	in Convex Hull 2D object's XZ plane.
 
 <p float="left">
@@ -48,9 +48,9 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 
 #### Define custom plane of intersection
 	We can also overwrite the default "world X-Z" plane of intersection and define a custom plane of intersection for our convex hull calculations.
-	We do so by linking a plane object to the "Plane of intersection target" linker in the Object properties. Simply create a new object (for example a quad polygon),
+	We do so by linking any object to the "Plane of intersection target" linker in the Object properties. Simply create a new object (for example a quad polygon),
 	drag and drop it into the link area. Once the object has been linked it should have a green bounding box surrounding it. The orientation
-	and the position of the linked object now defines the orientation and center of the new plane of intersection for geometry based mode.
+	and the position of the linked object now defines the new orientation and center of the plane of intersection for geometry based mode.
 <p float="left">
   <img src="images/linkedobj.png" width="414" />
 </p>
@@ -84,3 +84,12 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
   <img src="images/expand0.png" width="314" />
   <img src="images/expand100.png" width="314" />
 </p>
+
+#### Precision
+	Precision parameter can be thought of as a distance threshold between two points. If the distance between two given points is smaller than
+	the value of the precision parameter, then the two points will be considered as a single point for the convex Hull computation. By default 
+	it is set to 0.001. You can adjust the precision parameter based on the topology of your geometry the respective distances between child objects. 
+	
+	Sometimes when dealing with dense geometry it could be helpful to increase the value of the precision parameter to increase performance of
+	the algorithm. But as always, it is a trade off between performance and accuracy.
+
