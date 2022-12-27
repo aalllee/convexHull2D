@@ -26,5 +26,5 @@
 
 <p float="left">
   <img src="images/Object.png" width="178" />
-  <img src="images/chull_default.png" width="979" /> 
+  <img src="images/chull_default.png" width="600" /> 
 </p>
