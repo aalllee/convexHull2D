@@ -31,3 +31,9 @@
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
 ![](images/Object.png)  |  ![](images/chull_default.png)
+
+<p float="left">
+  <img src="images/Object.png" width="100" />
+  <img src="images/chull_default.png" width="100" /> 
+  <img src="images/chull_default.png" width="100" />
+</p>
