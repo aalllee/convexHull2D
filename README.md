@@ -1,5 +1,8 @@
 # Convex Hull 2D
- 
+<p float="left">
+  <img src="images/convexHull2D_image.png" width="64" />
+	<p> A Cinema 4D plugin to compute 2-dimensional convex hulls.</p>
+</p> 
 ![image](images/convexHull2D_image.png)
 
 # A Cinema 4D plugin to compute 2-dimensional convex hulls.
@@ -22,8 +25,9 @@
 	
 The Convex Hull 2D object can be found under the "Extensions" tab. 
 
-The Convex Hull is computed on it's children object's data. The data is interpreted differently depending on the selected mode in the object properties.
-There are currently two convex hull modes: **Pivot point based** and **Geometry based**.
+The Convex Hull is computed on it's children object's data. The data is interpreted differently depending
+on the selected mode in the object properties.There are currently two convex hull modes:
+**Pivot point based** and **Geometry based**.
 
 ### Pivot point based
 	By default the Convex Hull 2D object snaps it's childern objects to it's local XZ plane and
@@ -36,11 +40,11 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 </p>
 
 ### Geometry based
-	To use Geometry based mode we need to enable it first in the Object settings by checking on "Geometry based" option.
-	This mode computes the convex hull on the points produced by intersecting the world X-Z plane with the childern objects.
-	Note that the children objects must be in editable mode to be considered for computation.
+	To use Geometry based mode we need to enable it first in the Object settings by checking on
+	"Geometry based" option. This mode computes the convex hull on the points produced by intersecting
+	the world X-Z plane with the childern objects. Note that the children objects must be in editable
+	mode to be considered for computation.
 	
-
 <p float="left">
   <img src="images/editable.png" width="201" />
   <img src="images/geometry_based.png" width="784" /> 
