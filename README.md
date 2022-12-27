@@ -43,7 +43,7 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 
 <p float="left">
   <img src="images/editable.png" width="201" />
-  <img src="images/geometry_based.png.png" width="784" /> 
+  <img src="images/geometry_based.png" width="784" /> 
 </p>
 
 
