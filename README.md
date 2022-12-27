@@ -71,4 +71,16 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
   <img src="images/linked3b.png" width="314" />
 </p>
 
-
+#### Expansion
+	The expansion slider allows us to expand/contract the convex hull, similar but not the same as to scaling it up or down. More precisely, the 
+	expansion direction is based on the sum of a point's tangent vectors, which are pointing to the next and previous points within the convex hull.
+	From my testing this type of expansion gives the most uniform and stable results, especially when dealing with closed geometry. Currently the 
+	"Expansion mode" contains "Tangent Based" mode only. I am planning on including more modes in the future.
+<p float="left">
+  <img src="images/expansionMode.png" width="314" />
+ 
+</p>
+<p float="left">
+  <img src="images/expand0.png" width="314" />
+  <img src="images/expand100.png" width="314" />
+</p>
