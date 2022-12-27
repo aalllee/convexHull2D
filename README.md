@@ -17,4 +17,4 @@
 	Given a set of coplanar points *S*, a 2-dimensional convex hull *C* is a smallest convex polygon that
 	encloses *S*.
 	
-	![image](images/chull_def.png)
+![image](images/chull_def.png)
