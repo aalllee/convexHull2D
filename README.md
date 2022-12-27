@@ -22,7 +22,7 @@
 	
 The Convex Hull 2D object can be found under the "Extensions" tab. 
 
-The Convex Hull is computed on it's children object's data. The data is interpreted depending on the selected mode.
+The Convex Hull is computed on it's children object's data. The data is interpreted differently depending on the selected mode in the object properties.
 There are currently two convex hull modes: **Pivot point based** and **Geometry based**.
 
 #### Pivot point based
@@ -38,7 +38,7 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 #### Geometry based
 	To use Geometry based mode we need to enable it first in the Object settings by checking on "Geometry based" option.
 	This mode computes the convex hull on the points produced by intersecting the world X-Z plane with the childern objects.
-	Not that the children objects must be in editable mode to be considered for computation.
+	Note that the children objects must be in editable mode to be considered for computation.
 	
 
 <p float="left">
@@ -50,11 +50,17 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 	We can also overwrite the default "world X-Z" plane and define a custom plane of intersection for our convex hull calculations.
 	We do so by linking a plane object to the "Plane of intersection target" linker in the Object properties. Simply create a new object,
 	drag and drop it into the link area. Once the object has been linked it should have a green bounding box surrounding it. The orientation
-	of the linked object now defines the new plane of intersection for geometry based mode.
+	and the position of the linked object now defines the orientation and center of the new plane of intersection for geometry based mode.
 <p float="left">
   <img src="images/linkedobj.png" width="414" />
- 
 </p>
+
+<p float="left">
+  <img src="images/linked1.png" width="414" />
+  <img src="images/linked2.png" width="414" />
+  <img src="images/linked3.png" width="414" />
+</p>
+
 
 
 
