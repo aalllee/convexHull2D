@@ -22,9 +22,10 @@
 	
 The Convex Hull 2D object can be found under the "Extensions" tab. 
 
+The Convex Hull is computed on it's children object's data. The data is interpreted depending on the Convex hull mode selected.
 There are currently two convex hull modes: **Pivot point based** and **Geometry based**.
 
-#### Default settings
+#### Pivot point based
 	By default the Convex Hull 2D object snaps it's childern objects to it's local XZ plane and
 	computes convex hull on it's child objects' pivot points. The child objects are free to be moved around
 	in Convex Hull 2D object's XZ plane.
