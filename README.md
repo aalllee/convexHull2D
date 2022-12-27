@@ -4,7 +4,7 @@
 # Convex Hull 2D
 
 
-## A Cinema 4D plugin to compute 2-dimensional convex hulls.
+### A Cinema 4D plugin to compute 2-dimensional convex hulls.
 ### Currently built for R25.120
 
 ### Installing the plugin:
