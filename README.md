@@ -1,9 +1,10 @@
 # Convex Hull 2D
-<p> A Cinema 4D plugin to compute 2-dimensional convex hulls.</p>
-<p float="left">
-  <img src="images/convexHull2D_image.png" width="64" />
-	<p> A Cinema 4D plugin to compute 2-dimensional convex hulls.</p>
-</p> 
+<img align="left" width="64" height="64" src="images/convexHull2D_image.png">
+
+This is the code you need to align images to the left:
+```
+<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">
+```
 ![image](images/convexHull2D_image.png)
 
 # A Cinema 4D plugin to compute 2-dimensional convex hulls.
