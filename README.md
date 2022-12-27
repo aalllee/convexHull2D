@@ -22,7 +22,7 @@
 	
 The Convex Hull 2D object can be found under the "Extensions" tab. 
 
-The Convex Hull is computed on it's children object's data. The data is interpreted depending on the Convex hull mode selected.
+The Convex Hull is computed on it's children object's data. The data is interpreted depending on the selected mode.
 There are currently two convex hull modes: **Pivot point based** and **Geometry based**.
 
 #### Pivot point based
@@ -33,6 +33,17 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 <p float="left">
   <img src="images/Object.png" width="178" />
   <img src="images/chull_default.png" width="600" /> 
+</p>
+
+#### Geometry based
+	To use Geometry based mode we need to enable it first in the Object settings by checking on "Geometry based" option.
+	This mode computes the convex hull on the points produced by intersecting the world X-Z plane with the childern objects.
+	Not that the children objects must be in editable mode to be considered for computation.
+	
+
+<p float="left">
+  <img src="images/editable.png" width="201" />
+  <img src="images/geometry_based.png.png" width="784" /> 
 </p>
 
 
