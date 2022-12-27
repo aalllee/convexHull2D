@@ -47,10 +47,12 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 </p>
 
 #### Define custom plane of intersection
-	We can also overwrite the default "world X-Z" plane of intersection and define a custom plane of intersection for our convex hull calculations.
-	We do so by linking any object to the "Plane of intersection target" linker in the Object properties. Simply create a new object (for example a quad polygon),
-	drag and drop it into the link area. Once the object has been linked it should have a green bounding box surrounding it. The orientation
-	and the position of the linked object now defines the new orientation and center of the plane of intersection for geometry based mode.
+	We can also overwrite the default "world X-Z" plane of intersection and define a custom plane
+ 	of intersection for our convex hull calculations. We do so by linking any object to the "Plane
+	of intersection target" linker in the Object properties. Simply create a new object
+	(for example a quad polygon), drag and drop it into the link area. Once the object has been linked
+	it should have a green bounding box surrounding it. The orientation and the position of the linked 
+	object now defines the new orientation and center of the plane of intersection for geometry based mode.
 <p float="left">
   <img src="images/linkedobj.png" width="414" />
 </p>
@@ -62,8 +64,8 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 </p>
 
 #### Bounding plane
-	For a better visualization we can turn on the "Show Bounding Plane" option. This will display a green bounding plane of
-	the convex hull points.
+	For a better visualization we can turn on the "Show Bounding Plane" option. This will display
+	a green bounding plane of the convex hull points.
 
 <p float="left">
   <img src="images/linked1b.png" width="314" />
@@ -72,10 +74,12 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 </p>
 
 #### Expansion
-	The expansion slider allows us to expand/contract the convex hull, similar but not the same as to scaling it up or down. More precisely, the 
-	expansion direction is based on the sum of a point's tangent vectors, which are pointing to the next and previous points within the convex hull.
-	From my testing this type of expansion gives the most uniform and stable results, especially when dealing with closed geometry. Currently the 
-	"Expansion mode" contains "Tangent Based" mode only. I am planning on including more modes in the future.
+	The expansion slider allows us to expand/contract the convex hull, similar but not the same as
+	to scaling it up or down. More precisely, the expansion direction is based on the sum of a point's
+	tangent vectors, which are pointing to the next and previous points within the convex hull. From my
+	testing this type of expansion gives the most uniform and stable results, especially when dealing with
+	closed geometry. Currently the "Expansion mode" contains "Tangent Based" mode only. I am planning on
+	including more modes in the future.
 <p float="left">
   <img src="images/expansionMode.png" width="314" />
  
@@ -86,10 +90,17 @@ There are currently two convex hull modes: **Pivot point based** and **Geometry 
 </p>
 
 #### Precision
-	Precision parameter can be thought of as a distance threshold between two points. If the distance between two given points is smaller than
-	the value of the precision parameter, then the two points will be considered as a single point for the convex Hull computation. By default 
-	it is set to 0.001. You can adjust the precision parameter based on the topology of your geometry the respective distances between child objects. 
+	Precision parameter can be thought of as a distance threshold between two points. If the distance
+	between two given points is smaller than the value of the precision parameter, then the two points
+	will be considered as a single point for the convex Hull computation. By default it is set to 0.001.
+	You can adjust the precision parameter based on the topology of your geometry and the respective distances
+	between child objects. 
 	
-	Sometimes when dealing with dense geometry it could be helpful to increase the value of the precision parameter to increase performance of
-	the algorithm. But as always, it is a trade off between performance and accuracy.
+	Sometimes when dealing with dense geometry it could be helpful to increase the value of the precision
+	parameter to increase performance of the algorithm. But as always, it is a trade off between performance and accuracy.
 
+#### Future updates
+	1) Update current gift wrapping algorithm to a more efficient Graham's Scan Algorithm.
+	2) Add a feature to create multiple convex hull splines along geometry by offseting current plane of intersection.
+	3) Add bezier and bspline support.
+	
