@@ -18,13 +18,17 @@
 	
 ![image](images/chull_def.png)
 
-#### How to use the plugin:
+## How to use the plugin:
+	
 	The Convex Hull 2D object can be found under the "Extensions" tab. 
-
-	By default the Convex Hull 2D object computes convex hull on it's child objects' pivot points.
-
+	#### Default settings
+	By default the Convex Hull 2D object snaps it's childern objects to it's local XZ plane and
+	computes convex hull on it's child objects' pivot points. The child objects are free to be moved around
+	in Convex Hull 2D object's XZ plane.
 
 <p float="left">
   <img src="images/Object.png" width="178" />
   <img src="images/chull_default.png" width="600" /> 
 </p>
+
+
