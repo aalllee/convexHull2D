@@ -17,3 +17,10 @@
 	encloses S.
 	
 ![image](images/chull_def.png)
+
+#### How to use the plugin:
+		The Convex Hull 2D object can be found under the "Extensions" tab. 
+
+		By default the Convex Hull 2D object computes convex hull on it's child objects' pivot points.
+![image](images/Object.png)		
+![image](images/chull_default.png)
