@@ -2,7 +2,7 @@
 <img align="left" width="64" height="64" src="images/convexHull2D_image.png">
 
 ```
-<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100"> 
+# Convex Hull 2D
 ```
 
 # A Cinema 4D plugin to compute 2-dimensional convex hulls.
