@@ -24,4 +24,9 @@
 	By default the Convex Hull 2D object computes convex hull on it's child objects' pivot points.
 ![image](images/Object.png)		
 ![image](images/chull_default.png)
+
+<img align="left" width="100" height="100" src="images/Object.png">
+
+This is the code you need to align images to the left:
+```
 <img align="left" width="100" height="100" src="images/Object.png">
