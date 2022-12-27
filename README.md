@@ -11,10 +11,9 @@
 	You will find the plugin under Extensions tab after reloading Cinema 4D.
 
 #### What is a Convex Hull:
-	Let's first take a look at the definition of a convex hull before exploring the capabilities
-	and use cases of the plugin.
+	Let's first take a look at the definition of a convex hull before exploring the possible use cases of the plugin.
 	
-	Given a set of coplanar points *S*, a 2-dimensional convex hull *C* is a smallest convex polygon that
+	Given a set of coplanar points _S_, a 2-dimensional convex hull _C_ is a smallest convex polygon that
 	encloses *S*.
 	
 ![image](images/chull_def.png)
