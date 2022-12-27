@@ -1,4 +1,5 @@
 # Convex Hull 2D
+<p> A Cinema 4D plugin to compute 2-dimensional convex hulls.</p>
 <p float="left">
   <img src="images/convexHull2D_image.png" width="64" />
 	<p> A Cinema 4D plugin to compute 2-dimensional convex hulls.</p>
