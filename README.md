@@ -27,6 +27,5 @@
 
 <img align="left" width="100" height="100" src="images/Object.png">
 
-This is the code you need to align images to the left:
-```
-<img align="left" width="100" height="100" src="images/Object.png">
+
+<img align="right" width="100" height="100" src="images/Object.png">
