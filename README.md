@@ -24,14 +24,6 @@
 	By default the Convex Hull 2D object computes convex hull on it's child objects' pivot points.
 
 
-<img align="left" width="178" height="221" src="images/Object.png">
-
-
-<img align="right" width="979" height="604" src="images/chull_default.png">
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](images/Object.png)  |  ![](images/chull_default.png)
-
 <p float="left">
   <img src="images/Object.png" width="100" />
   <img src="images/chull_default.png" width="100" /> 
